@@ -1,0 +1,13 @@
+:ruby
+  line_style = {
+    "fill" => "none",
+    "stroke" => "#333",
+    "stroke-width" => "12.5"
+  }
+
+!!! XML
+%svg(xmlns="http://www.w3.org/2000/svg" width="100" height="100")
+  %g(transform="translate(15 85)")
+    %circle(cx="7.5" cy="-7.5" r="7.5" fill="#333" stroke="none")
+    %path{line_style}(d="m0 -35 a35 35 -90 0 1 35 35")
+    %path{line_style}(d="m0 -60 a60 60 -90 0 1 60 60")
