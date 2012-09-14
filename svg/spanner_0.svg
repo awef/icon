@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<svg height='100' width='100' xmlns='http://www.w3.org/2000/svg'>
+  <desc>Created by awef.</desc>
+  <g transform='rotate(-40 50 50)'>
+    <path d='M0 35 l-5 0 l0 -40 c-10 0 -10 -20 -2.5 -20 l0 10 l7.5 5 l7.5 -5 l0 -10 c7.5 0 7.5 20 -2.5 20 l0 40 z' fill='#333' stroke-width='1' stroke='#333' transform='translate(50 50) scale(1.25 1.25)'></path>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<svg height='100' width='100' xmlns='http://www.w3.org/2000/svg'>
+  <desc>Created by awef.</desc>
+  <g transform='translate(50 80) rotate(-45)'>
+    <circle cx='0' cy='0' fill='#333' r='5' stroke='none'></circle>
+    <path d='m0,-20 a20,20,-90,0,1,20,20' fill='none' stroke-width='7.5' stroke='#333'></path>
+    <path d='m0,-40 a40,40,-90,0,1,40,40' fill='none' stroke-width='7.5' stroke='#333'></path>
+    <path d='m0,-60 a60,60,-90,0,1,60,60' fill='none' stroke-width='7.5' stroke='#333'></path>
+  </g>
+</svg>

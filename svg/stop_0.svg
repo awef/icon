@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<svg height='100' width='100' xmlns='http://www.w3.org/2000/svg'>
+  <desc>Created by awef.</desc>
+  <g transform='rotate(45 50 50)'>
+    <circle cx='50' cy='50' fill='none' r='35' stroke-width='9' stroke='#333'></circle>
+    <line fill='none' stroke-width='9' stroke='#333' x1='15' x2='85' y1='50' y2='50'></line>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<svg height='100' width='100' xmlns='http://www.w3.org/2000/svg'>
+  <desc>Created by awef.</desc>
+  <path d='M30 30 L70 70' stroke-linecap='round' stroke-width='17.5' stroke='#333'></path>
+  <path d='M30 70 L70 30' stroke-linecap='round' stroke-width='17.5' stroke='#333'></path>
+</svg>

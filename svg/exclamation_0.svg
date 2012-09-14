@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<svg height='100' width='100' xmlns='http://www.w3.org/2000/svg'>
+  <desc>Created by awef.</desc>
+  <line fill='none' stroke-width='10' stroke='#333' x1='50' x2='50' y1='15' y2='65'></line>
+  <rect fill='#333' height='10' width='10' x='45' y='75'></rect>
+</svg>

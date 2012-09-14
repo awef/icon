@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<svg height='100' width='100' xmlns='http://www.w3.org/2000/svg'>
+  <desc>Created by awef.</desc>
+  <rect fill='none' height='50' stroke-linejoin='round' stroke-width='9' stroke='#333' width='70' x='15' y='25'></rect>
+  <polyline fill='none' points='15 25 50 50 85 25' stroke-linejoin='round' stroke-width='9' stroke='#333'></polyline>
+</svg>
