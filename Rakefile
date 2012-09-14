@@ -1,12 +1,16 @@
 require "rubygems"
 require "haml"
 
-def haml(src, out)
-  sh "bundle exec haml -q #{src} #{out}"
-end
+DESC = "Created by awef."
 
 rule ".svg" => "%{^svg/,src/}X.haml" do |a|
-  haml(a.prerequisites[0], a.name)
+  haml = open(a.prerequisites[0]).read
+
+  html = Haml::Engine.new(haml).render
+
+  File.open a.name, "w+" do |f|
+    f.write(html)
+  end
 end
 
 task :default => [
