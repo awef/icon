@@ -1,0 +1,38 @@
+
+!!! 5
+%html
+  %head
+    %meta(charset="utf-8")
+    %title index
+    :css
+      html {
+        color: hsl(0, 0%, 25%);
+        font-size: 14px;
+      }
+      #svg-list {
+        list-style-type: none;
+      }
+      #svg-list li {
+        float: left;
+        margin: 1rem;
+      }
+      #svg-list img {
+        border: 1px dashed hsl(0, 0%, 75%);
+      }
+      #svg-list a {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+      }
+      #svg-list div {
+        text-align: center;
+        font-size: 0.9rem;
+      }
+  %body
+    %ul#svg-list
+      - svg_list.each do |path|
+        - filename = path.sub(/^svg\//, "")
+        %li
+          %a(href=path)
+            %img(src=path alt=filename)
+          %div&= filename
