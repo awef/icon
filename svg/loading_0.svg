@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<svg height='100' width='100' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+  <desc>Created by awef.</desc>
+  <defs>
+    <circle fill='#333' id='dot' r='6' stroke='none'></circle>
+  </defs>
+  <use x='25' xlink:href='#dot' y='50'>
+    <animate attributeName='opacity' dur='1750ms' repeatCount='indefinite' values='0;1;1;1;0'></animate>
+  </use>
+  <use x='50' xlink:href='#dot' y='50'>
+    <animate attributeName='opacity' dur='1750ms' repeatCount='indefinite' values='0;0;1;1;0'></animate>
+  </use>
+  <use x='75' xlink:href='#dot' y='50'>
+    <animate attributeName='opacity' dur='1750ms' repeatCount='indefinite' values='0;0;0;1;0'></animate>
+  </use>
+</svg>
